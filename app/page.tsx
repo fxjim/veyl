@@ -13,20 +13,20 @@ export default function Home() {
       </h1>
 
       <h2 className="text-xl md:text-2xl font-semibold mb-6">
-        But what happens when you strip it away — and no one's watching?
+        But what happens when you strip it away — and no one&apos;s watching?
       </h2>
 
       <p className="text-sm md:text-base max-w-xl leading-relaxed mb-10">
         <strong>Veyl</strong> is your anonymous space for unfiltered thoughts — and uncensored answers.<br />
-        Ask what you can’t elsewhere. Confess what you’ve buried.<br />
-        Our AI doesn’t judge or censor.
+        Ask what you can&apos;t elsewhere. Confess what you&apos;ve buried.<br />
+        Our AI doesn&apos;t judge or censor.
       </p>
 
       <a
-        href="/chat"
-        className="bg-white text-black font-bold text-base md:text-lg px-8 py-4 rounded-full shadow-lg hover:bg-[#ffdde0] hover:text-black transition-all duration-200 tracking-wide"
+        href="#"
+        className="bg-white text-black font-bold text-base px-8 py-3 rounded-xl shadow-xl hover:bg-gray-200 hover:scale-105 transform transition duration-200"
       >
-        ✦ Start Stryping
+        Start Stryping
       </a>
     </main>
   );
