@@ -21,7 +21,7 @@ export default function Home() {
       </p>
 
       <button
-        className="mt-10 px-8 py-3 text-lg font-medium rounded-full bg-ember text-white hover:bg-ember/80 transition-all shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-ember focus:ring-offset-2"
+        className="mt-10 inline-block rounded-full bg-ember text-white text-base font-semibold px-6 py-3 transition hover:bg-ember/80 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-ember focus:ring-offset-2"
       >
         Start Stryping
       </button>
