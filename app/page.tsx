@@ -1,34 +1,55 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center text-center px-4 py-10">
-      <img
-        src="/logo-veyl.png"
-        alt="Veyl Logo"
-        className="mx-auto mb-8 w-[280px] md:w-[340px]"
-      />
+    <main className="flex min-h-screen flex-col items-center justify-center text-center px-4">
+      {/* Scalable SVG logo without interactivity */}
+      <div className="mb-10">
+        <svg
+          viewBox="0 0 120 40"
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-20 md:h-28"
+        >
+          <text
+            x="0"
+            y="28"
+            fontFamily="Sora, sans-serif"
+            fontSize="28"
+            fill="#E5E5E7"
+          >
+            Ve
+          </text>
+          <path
+            d="M58 15 C60 10, 65 10, 67 15 C68 20, 65 25, 62 28"
+            fill="#D87A56"
+          />
+          <text
+            x="70"
+            y="28"
+            fontFamily="Sora, sans-serif"
+            fontSize="28"
+            fill="#E5E5E7"
+          >
+            l
+          </text>
+        </svg>
+      </div>
 
-      <h1 className="text-2xl md:text-3xl font-bold text-white leading-tight">
+      <h1 className="text-2xl md:text-3xl font-bold text-ash">
         Everyone wears a veil.
-        <br />
-        But what happens when you strip it away — and no one’s watching?
       </h1>
+      <h2 className="text-xl md:text-2xl font-bold text-ash mt-2">
+        But what happens when you strip it away — and no one’s watching?
+      </h2>
 
-      <p className="mt-4 max-w-xl text-sm md:text-base text-ash leading-relaxed">
-        <strong>Veyl</strong> is your anonymous space for unfiltered thoughts — and uncensored answers.{" "}
-        Ask what you can’t elsewhere. Confess what you’ve buried. Our AI doesn’t judge or censor.
+      <p className="mt-6 max-w-2xl text-sm md:text-base text-white">
+        <strong>Veyl</strong> is your anonymous space for unfiltered thoughts —
+        and uncensored answers.
+        <span className="block md:inline"> Ask what you can’t elsewhere.</span>{' '}
+        Confess what you’ve buried. Our AI doesn’t judge or censor.
       </p>
 
-      <button
-        className="mt-10 px-6 py-3 rounded-full font-semibold text-white transition"
-        style={{
-          backgroundColor: "#D87A56", // ember
-          boxShadow: "0 4px 14px 0 rgba(216, 122, 86, 0.39)",
-        }}
-        onMouseOver={e => e.currentTarget.style.backgroundColor = "#e08a67"}
-        onMouseOut={e => e.currentTarget.style.backgroundColor = "#D87A56"}
-      >
+      <button className="mt-10 px-8 py-3 rounded-full bg-ember text-white font-semibold text-sm shadow-md hover:bg-white hover:text-ember transition">
         Start Stryping
       </button>
     </main>
-  );
+  )
 }
