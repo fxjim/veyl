@@ -5,7 +5,7 @@ export default function Home() {
       <img
         src="/logo-veyl.png"
         alt="Veyl Logo"
-        className="w-60 md:w-72 mb-8"
+        className="w-72 md:w-[320px] mb-12"
       />
 
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -23,8 +23,8 @@ export default function Home() {
       </p>
 
       <a
-        href="#"
-        className="bg-white text-black font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-gray-200 transition"
+        href="/chat"
+        className="bg-white text-black font-semibold text-base md:text-lg px-8 py-4 rounded-2xl shadow-lg hover:bg-gray-200 transition-all duration-200"
       >
         Start Stryping
       </a>
