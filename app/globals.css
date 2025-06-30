@@ -1,3 +1,4 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,5 +10,7 @@ html {
 }
 
 body {
-  @apply font-sans bg-charcoal text-ash;
+  font-family: 'Sora', ui-sans-serif, system-ui;
+  background-color: #1C1C1E;
+  color: #E5E5E7;
 }
