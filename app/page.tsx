@@ -5,7 +5,7 @@ export default function Home() {
       <img
         src="/logo-veyl.png"
         alt="Veyl Logo"
-        className="w-72 md:w-[320px] mb-12"
+        className="w-[300px] sm:w-[360px] md:w-[400px] mb-12"
       />
 
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -13,18 +13,18 @@ export default function Home() {
       </h1>
 
       <h2 className="text-xl md:text-2xl font-semibold mb-6">
-        But what happens when you strip it away — and no one's watching?
+        But what happens when you strip it away — and no one&apos;s watching?
       </h2>
 
       <p className="text-sm md:text-base max-w-xl leading-relaxed mb-10">
         <strong>Veyl</strong> is your anonymous space for unfiltered thoughts — and uncensored answers.<br />
-        Ask what you can’t elsewhere. Confess what you’ve buried.<br />
-        Our AI doesn’t judge or censor.
+        Ask what you can&apos;t elsewhere. Confess what you&apos;ve buried.<br />
+        Our AI doesn&apos;t judge or censor.
       </p>
 
       <a
         href="/chat"
-        className="bg-white text-black font-semibold text-base md:text-lg px-8 py-4 rounded-2xl shadow-lg hover:bg-gray-200 transition-all duration-200"
+        className="bg-white text-black font-bold text-base md:text-lg px-10 py-4 rounded-full shadow-lg hover:bg-gray-300 transition-all duration-200"
       >
         Start Stryping
       </a>
